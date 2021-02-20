@@ -1,0 +1,83 @@
+body {
+	background-image: url(images/background.jpg);
+	background-attachment: fixed;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+}
+
+header {
+	text-align: center;
+	font-size: 35px;
+}
+
+h1 {
+	margin: 20px 0;
+	font-weight: 300;
+}
+
+main {
+	width: 1000px;
+	background-color: rgba(0, 0, 0, 0.7);
+	margin: 0px auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto;
+	grid-template-areas: 
+	"info twitter"
+	"crater crater_img"
+	"goal_img goal"
+	"name name_img";
+	padding: 30px;
+	border-radius: 8px;
+	font-size: 20px;
+
+} 
+
+
+#twitter_div {
+	grid-area: twitter;
+}
+
+#crater {
+	grid-area: crater;
+}
+
+#goal {
+	padding: 10px;
+}
+figcaption {
+	font-size: 15px;
+}
+
+main img{
+	width: 100%;
+	margin-top: 100px;
+	border-radius: 5px;
+}
+.bold {
+	font-weight: 700;
+}
+
+.italic {
+	font-style: italic;
+}
+
+main a {
+	text-decoration: none;
+	color: #ff6768;
+}
+
+main a:hover {
+	color: #dd4546;
+}
+
+footer {
+	background-color: rgba(217, 90, 59, 0.6);
+	text-align: center;
+	height: 35px;
+	/*width: 100%;*/
+	padding-top: 8px;
+	border-radius: 8px;
+	margin: 10px;
+}
