@@ -29,7 +29,8 @@ main {
 	"crater crater_img"
 	"goal_img goal"
 	"name name_img"
-	"instruments_img instruments";
+	"instruments_img instruments"
+	"nasa_links nasa_img";
 	padding: 30px;
 	border-radius: 8px;
 	font-size: 20px;
@@ -49,6 +50,8 @@ main img{
 	margin-top: 100px;
 	border-radius: 5px;
 }
+
+
 .bold {
 	font-weight: 700;
 }
