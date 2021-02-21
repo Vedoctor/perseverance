@@ -27,25 +27,18 @@ main {
 	"info twitter"
 	"crater crater_img"
 	"goal_img goal"
-	"name name_img";
+	"name name_img"
+	"instruments_img instruments";
 	padding: 30px;
 	border-radius: 8px;
 	font-size: 20px;
 
 } 
 
-
-#twitter_div {
-	grid-area: twitter;
-}
-
-#crater {
-	grid-area: crater;
-}
-
-#goal {
+.text {
 	padding: 10px;
 }
+
 figcaption {
 	font-size: 15px;
 }
