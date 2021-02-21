@@ -1,6 +1,7 @@
 body {
-	background-image: url(images/background.jpg);
+	background-image: url(images/background_logo.jpg);
 	background-attachment: fixed;
+	background-size: cover;
 	color: #fff;
 	font-family: 'Raleway', sans-serif;
 	margin: 0;
